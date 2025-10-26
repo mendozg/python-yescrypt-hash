@@ -48,8 +48,8 @@ class TestSequenceFunctions(unittest.TestCase):
         self.block_header = unhexlify(header_hex)
         self.best_hash = best_hash
 
-    def test_x11_hash(self):
-        self.pow_hash = hexlify(x11_hash.getPoWHash(self.block_header))
+    def test_yescrypt_hash(self):
+        self.pow_hash = hexlify(yescrypt_hash.getPoWHash(self.block_header))
         self.assertEqual(self.pow_hash, self.best_hash)
 
 
