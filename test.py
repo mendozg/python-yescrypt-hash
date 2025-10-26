@@ -40,7 +40,7 @@ header_hex = ("02000000" +
     "ffff3f1f" +
     "60000000")
 
-best_hash = '11e212b66b79ea0eb4e7f837339419956e56568e3da33610c3ca636345ca8cd9'
+best_hash = '1f89267b62241f314a256d4a3a41c74ca099b2ea501586544d6b3bb8539c3800' # This is the Proof Work hash 
 
 class TestSequenceFunctions(unittest.TestCase):
 
