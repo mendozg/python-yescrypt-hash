@@ -18,7 +18,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  */
-#include "yescrypt_hash.h"
+#include "yescrypthash.h"
 #include "yescrypt/sha256_c.h"
 #include "yescrypt/yescrypt-best_c.h"
 
