@@ -8,9 +8,9 @@ Python module for GlobalBoost's Yescrypt hashing.
 Install
 -------
 
-Python 2.7 is required as well as gcc.
+Python >=3.8 is required as well as gcc.
 
-    $ python setup.py install
+    $ pip install .
 
 
 Test
