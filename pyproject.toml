@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yescrypt_hash"
+version = "0.5"
+description = "Binding for Yescrypt proof of work hashing."
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.ext-modules]
+yescrypt_hash = {
+    sources = [
+        "yescryptmodule.c",
+        "yescrypthash.c"
+    ],
+    include-dirs = [".", "./yescrypt"]
+}
