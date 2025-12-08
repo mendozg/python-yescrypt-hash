@@ -8,3 +8,6 @@ libyescrypthash_la_SOURCES = \
   yescrypt/sysendian.h \
   yescrypt/yescrypt-best_c.h yescrypt/yescrypt-platform_c.h \
   yescrypt/yescrypt-opt_c.h yescrypt-simd_c.h
+
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = libyescrypthash-1.0.pc
