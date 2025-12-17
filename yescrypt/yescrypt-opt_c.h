@@ -41,7 +41,7 @@
 #include "sha256.h"
 #include "sysendian.h"
 
-#include "../yescrypt_hash.h"
+#include "../yescrypthash.h"
 
 #include "yescrypt-platform_c.h"
 
