@@ -4,6 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "yescrypt-hash"
-version = "0.5"
+version = "0.5.1"
 description = "Binding for Yescrypt proof of work hashing."
 requires-python = ">=3.8"
